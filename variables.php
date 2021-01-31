@@ -6,8 +6,23 @@
   <title>Document</title>
 </head>
 <body>
+
+  <a href='/php-apache-basics/'>home</a>
+  <br />
+
   <?php
     echo $_SERVER['HTTP_USER_AGENT'];
+  ?>
+  <br />
+  <?php 
+    $myInt = 12;
+    echo $myInt;
+  ?>
+
+    <br />
+
+  <?php
+    echo gettype($myInt);
   ?>
 </body>
 </html>
