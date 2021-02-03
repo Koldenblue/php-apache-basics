@@ -23,7 +23,7 @@
     // get the color from the form
     $diamondColor = $_GET['color'];
     echo var_dump($diamondColor), PHP_EOL;
-    $diamond = new diamond();
+    $diamond = new diamond;
     echo $diamond::setColor($diamondColor);
 
     // instead set the diamond color here
